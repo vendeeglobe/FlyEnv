@@ -36,7 +36,7 @@ export class CloudflareTunnel {
         (key: string, res: any) => {
           IPC.off(key)
           if (res?.data?.tunnelId && res?.data?.tunnelToken) {
-            this.tunnelId = res?.data?.tunnelToken
+            this.tunnelId = res?.data?.tunnelId
             this.tunnelToken = res?.data?.tunnelToken
             this.tunnelName = res?.data?.tunnelName
             resolve(true)
