@@ -34,11 +34,12 @@ import openclawFR from './openclaw.json'
 import n8n from './n8n.json'
 import rustfsFR from './rustfs.json'
 import mkcert from './mkcert.json'
-
+import hermes from './hermes.json'
 export default {
   fr: {
     rustfs: rustfsFR,
     mkcert,
+    hermes,
     n8n,
     openclaw: openclawFR,
     podman,

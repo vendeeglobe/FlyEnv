@@ -80,6 +80,7 @@ export enum AppModuleEnum {
   'cloudflare-tunnel' = 'cloudflare-tunnel',
   cloudflared = 'cloudflared',
   openclaw = 'openclaw',
+  hermes = 'hermes',
   n8n = 'n8n',
   rustfs = 'rustfs',
   mkcert = 'mkcert'

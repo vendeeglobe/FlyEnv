@@ -34,6 +34,7 @@ import type update from './zh/update.json'
 import type util from './zh/util.json'
 import type versionmanager from './zh/versionmanager.json'
 import type openclaw from './zh/openclaw.json'
+import type hermes from './zh/hermes.json'
 import type n8n from './zh/n8n.json'
 import type rustfs from './zh/rustfs.json'
 import type mkcert from './zh/mkcert.json'
@@ -65,6 +66,7 @@ import TR from './tr/index'
 import UK from './uk/index'
 import VI from './vi/index'
 import ZH from './zh/index'
+import ZHHant from './zh-hant/index'
 
 type AppendStringToKeys<T extends object, Prefix extends string = ''> = {
   [K in keyof T]: K extends string
@@ -112,6 +114,7 @@ type LangKey =
   | AppendStringToKeys<typeof util, 'util'>
   | AppendStringToKeys<typeof versionmanager, 'versionmanager'>
   | AppendStringToKeys<typeof openclaw, 'openclaw'>
+  | AppendStringToKeys<typeof hermes, 'hermes'>
   | AppendStringToKeys<typeof n8n, 'n8n'>
   | AppendStringToKeys<typeof rustfs, 'rustfs'>
   | AppendStringToKeys<typeof mkcert, 'mkcert'>
@@ -143,7 +146,8 @@ export const AppAllLang: Record<string, string> = {
   tr: 'Türkçe',
   uk: 'Українська',
   vi: 'Tiếng Việt',
-  zh: '中文'
+  zh: '中文-简体',
+  zhhant: '中文-繁体'
 }
 
 const lang = {
@@ -173,7 +177,8 @@ const lang = {
   ...TR,
   ...UK,
   ...VI,
-  ...ZH
+  ...ZH,
+  ...ZHHant
 }
 
 let i18n: I18n

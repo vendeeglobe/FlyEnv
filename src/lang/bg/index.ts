@@ -33,10 +33,12 @@ import podman from './podman.json'
 import openclaw from './openclaw.json'
 import n8n from './n8n.json'
 import rustfs from './rustfs.json'
+import hermes from './hermes.json'
 
 export default {
   bg: {
     rustfs,
+    hermes,
     n8n,
     openclaw,
     podman,

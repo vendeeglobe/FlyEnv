@@ -34,11 +34,12 @@ import openclawID from './openclaw.json'
 import n8n from './n8n.json'
 import rustfsID from './rustfs.json'
 import mkcert from './mkcert.json'
-
+import hermes from './hermes.json'
 export default {
   id: {
     rustfs: rustfsID,
     mkcert,
+    hermes,
     n8n,
     openclaw: openclawID,
     podman,

@@ -56,6 +56,7 @@ class BaseManager {
   CloudflareTunnel: any
   Cloudflared: any
   OpenClaw: any
+  Hermes: any
   N8N: any
   RustFS: any
   MkCert: any
@@ -459,6 +460,12 @@ class BaseManager {
         this.OpenClaw = res.default
       }
       doRun(this.OpenClaw)
+    } else if (module === 'hermes') {
+      if (!this.Hermes) {
+        const res = await import('./module/Hermes')
+        this.Hermes = res.default
+      }
+      doRun(this.Hermes)
     } else if (module === 'n8n') {
       if (!this.N8N) {
         const res = await import('./module/N8N')

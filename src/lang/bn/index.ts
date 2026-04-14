@@ -34,11 +34,12 @@ import openclawBN from './openclaw.json'
 import n8n from './n8n.json'
 import rustfsBN from './rustfs.json'
 import mkcert from './mkcert.json'
-
+import hermes from './hermes.json'
 export default {
   bn: {
     rustfs: rustfsBN,
     mkcert,
+    hermes,
     n8n,
     openclaw: openclawBN,
     podman: podmanBN,
