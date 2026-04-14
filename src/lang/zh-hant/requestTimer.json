@@ -1,0 +1,17 @@
+{
+  "dnsLookup": "DNS 查詢",
+  "tcpConnect": "TCP 連線",
+  "tlsHandshake": "TLS 握手",
+  "requestProcessing": "請求處理",
+  "ttfb": "首位元組時間 (TTFB)",
+  "contentDownload": "內容下載",
+  "downloadSpeed": "下載速度",
+  "dataSize": "資料大小",
+  "httpVersion": "HTTP 版本",
+  "statusCode": "狀態碼",
+  "usingProxy": "使用代理",
+  "totalTime": "總耗時",
+  "skippedForProxy": "代理請求跳過 DNS",
+  "metric": "指標",
+  "value": "數值"
+}

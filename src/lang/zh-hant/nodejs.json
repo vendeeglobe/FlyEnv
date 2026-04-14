@@ -1,0 +1,15 @@
+{
+  "installFNM": "安裝 <a href=\"javascript:void();\" onclick=\"openUrl('https://github.com/Schniz/fnm')\">fnm</a>",
+  "installNVM": "安裝 <a href=\"javascript:void();\" onclick=\"openUrl('https://github.com/nvm-sh/nvm')\">nvm</a>",
+  "Terminal": "終端",
+  "registry": "registry",
+  "checkPackageJsonUpdate": "檢查更新",
+  "updatePackageJsonFile": "更新 package.json 檔案",
+  "updatePackageJsonFileTips": "此操作會改變 package.json 檔案，確定更新？",
+  "copyDirPath": "複製路徑",
+  "openIN": "進入",
+  "VSCode": "Visual Studio Code",
+  "PhpStorm": "PhpStorm",
+  "WebStorm": "WebStorm",
+  "projectEnvSet": "專案環境"
+}

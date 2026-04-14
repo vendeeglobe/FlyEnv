@@ -1,0 +1,7 @@
+{
+  "Timeout": "秒，請求逾時時間",
+  "KeepAlive": "是否允許保持連線",
+  "KeepAliveTimeout": "秒，在同一連線等待下一個請求的逾時時間",
+  "MaxKeepAliveRequests": "單次保持連線的最大請求數。\n設為 0 表示不限制。\n建議設定較高的數值以獲得最佳效能。",
+  "LimitRequestBody": "位元組。檔案上傳大小限制。0：不限制"
+}

@@ -1,0 +1,10 @@
+{
+  "showMainWin": "顯示主介面",
+  "exit": "離開",
+  "run": "執行中",
+  "notRun": "未執行",
+  "trayMenuBarStyle": "托盤彈出視窗樣式",
+  "classic": "經典",
+  "modern": "現代",
+  "trayMenuBarStyleTips": "選擇托盤彈出視窗的樣式。在某些 Linux 桌面下，現代樣式可能會有問題，可以選擇經典樣式。"
+}

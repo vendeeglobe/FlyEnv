@@ -1,0 +1,19 @@
+﻿{
+  "checking": "檢查安裝狀態...",
+  "isInstalled": "已安裝",
+  "notInstalled": "mkcert 未安裝",
+  "install": "安裝 mkcert",
+  "checkAgain": "重新檢查",
+  "recheck": "重新檢查",
+  "installing": "正在安裝 mkcert...",
+  "installingCA": "正在安裝 CA...",
+  "installCA": "安裝 CA",
+  "installCATip": "將本地 CA 安裝到系統/瀏覽器信任儲存",
+  "carootLabel": "CA 根目錄",
+  "certificates": "憑證",
+  "generate": "產生",
+  "generateTip": "為此主機產生受信任的憑證",
+  "generating": "產生中...",
+  "noSSLHosts": "沒有啟用 SSL 的主機，請先為主機啟用 SSL。",
+  "certGenerated": "憑證產生成功"
+}

@@ -1,0 +1,22 @@
+{
+  "setaliase": "設定別名",
+  "env": "環境變數",
+  "alias": "別名",
+  "envTips": "路徑是否已添加到環境變數中",
+  "aliasTips": "在終端中使用的別名",
+  "useSysPHP": "使用預設 PHP 版本",
+  "setByApp": "FlyEnv 設定的環境變數",
+  "setByNoApp": "非 FlyEnv 設定的環境變數",
+  "ftpdNeedPasswordToStart": "Pure-FTPd 需要管理員權限啟動，請輸入當前使用者密碼。後續會使用此密碼自動填充。您也可以點擊下方按鈕在終端中手動輸入，但此提示可能會再次出現。",
+  "bundleinVersionDelTips": "此版本為內建版本，確定不再顯示？",
+  "customDirVersionDelTips": "此版本為使用者自訂版本，確定不再顯示？",
+  "ErrorTips": {
+    "VCRuntime": {
+      "title": "此問題是系統缺少執行此版本所需的 VC 執行階段 DLL。請點擊下方連結前往微軟官網下載安裝 VC 執行階段",
+      "versionRelation": "版本對應關係如下",
+      "software": "軟體",
+      "versionRange": "版本範圍",
+      "msvsVersion": "MSVC 版本"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "OLLAMA_DEBUG": "顯示其他偵錯資訊（範例：OLLAMA_BUG=1）",
+  "OLLAMA_HOST": "OLLAMA 伺服器的 IP 位址（預設 127.0.0.1:11434）",
+  "OLLAMA_KEEP_ALIVE": "模型在記憶體中保持載入的持續時間（預設為 \"5m\"）",
+  "OLLAMA_MAX_LOADED_MODELS": "每個 GPU 載入的最大模型數",
+  "OLLAMA_MAX_QUEUE": "排隊請求的最大數量",
+  "OLLAMA_MODELS": "模型目錄的路徑",
+  "OLLAMA_NUM_PARALLEL": "最大平行請求數",
+  "OLLAMA_NOPRUNE": "不要在啟動時修剪模型 blob",
+  "OLLAMA_ORIGINS": "一個以逗號分隔的允許來源清單",
+  "OLLAMA_SCHED_SPREAD": "始終跨所有 GPU 調度模型",
+  "OLLAMA_FLASH_ATTENTION": "啟用閃光注意力",
+  "OLLAMA_KV_CACHE_TYPE": "K/V 快取的量化類型（預設值：f16）",
+  "OLLAMA_LLM_LIBRARY": "將 LLM 庫設定為繞過自動偵測",
+  "OLLAMA_GPU_OVERHEAD": "為每個 GPU 保留一部分 VRAM（位元組）",
+  "OLLAMA_LOAD_TIMEOUT": "在放棄之前允許模型負載停滯多長時間（預設為 \"5m\"）",
+  "needServiceRun": "請先啟動 Ollama 服務",
+  "size": "大小",
+  "model": "模型"
+}

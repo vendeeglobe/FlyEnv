@@ -1,0 +1,10 @@
+{
+  "email": "EMail",
+  "country": "國家",
+  "message": "留言",
+  "messagelengthErr": "留言長度為 5 - 1024",
+  "sendMessage": "給我留言",
+  "anythingToSay": "任何想說的",
+  "noSelected": "未選擇",
+  "inputFilter": "輸入內容進行篩選"
+}

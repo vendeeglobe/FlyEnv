@@ -1,0 +1,14 @@
+{
+  "binNotFound": "啟動檔案不存在，操作失敗",
+  "confNotFound": "設定檔不存在，伺服器啟動失敗",
+  "apacheLogPathErr": "設定檔日誌路徑有誤，切換失敗",
+  "versionError": "版本有誤，請重新選擇",
+  "hostsFileNotFound": "hosts 檔案不存在",
+  "startFail": "啟動失敗，請檢視日誌檔案",
+  "versionNotFound": "未取得到軟體版本，操作失敗",
+  "postgresqlInit": "服務啟動成功\n資料資料夾位於 {dir}\n初始使用者 root，密碼 root",
+  "downloadFileFail": "檔案下載失敗",
+  "trialEnd": "試用已到期，如需繼續使用此功能，請取得許可證",
+  "phpiniNotFound": "php.ini 檔案取得失敗",
+  "noEPMD": "未找到 epmd 處理程序。請重新設定 erlang 環境變數"
+}

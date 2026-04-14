@@ -1,0 +1,9 @@
+{
+  "rawFile": "設定檔",
+  "CommonSetting": "常用設定",
+  "open": "在資料夾中顯示檔案",
+  "save": "儲存檔案 Ctrl + s",
+  "loadDefault": "載入預設設定",
+  "saveCustom": "另存為",
+  "loadCustom": "載入自訂設定"
+}

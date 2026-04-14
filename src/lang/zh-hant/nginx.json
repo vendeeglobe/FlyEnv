@@ -1,0 +1,10 @@
+{
+  "gzip": "是否開啟 GZIP 壓縮傳輸",
+  "gzip_min_length": "最小壓縮檔案",
+  "gzip_comp_level": "壓縮率",
+  "client_max_body_size": "最大上傳檔案",
+  "server_names_hash_max_size": "伺服器名稱的 hash 表大小最大值",
+  "server_names_hash_bucket_size": "伺服器名稱的 hash 表大小",
+  "client_header_buffer_size": "用戶端請求頭 buffer 大小",
+  "client_body_buffer_size": "請求主體緩衝區"
+}

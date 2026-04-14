@@ -1,0 +1,6 @@
+{
+  "timeout": "閒置連線逾時時間，0 表示不斷開",
+  "databases": "資料庫數量",
+  "requirepass": "Redis 密碼",
+  "maxmemory": "位元組，最大使用記憶體，0 表示不限制"
+}

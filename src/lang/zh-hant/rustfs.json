@@ -1,0 +1,22 @@
+{
+  "RUSTFS_ADDRESS": "綁定到位址和通訊埠，位址可以是 IP 或主機名稱。預設值為 ':9000'。",
+  "RUSTFS_ACCESS_KEY": "用於 S3 API 認證的存取金鑰。",
+  "RUSTFS_ACCESS_KEY_FILE": "包含 S3 API 認證存取金鑰的檔案路徑。",
+  "RUSTFS_SECRET_KEY": "用於 S3 API 認證的金鑰。",
+  "RUSTFS_SECRET_KEY_FILE": "包含 S3 API 認證金鑰的檔案路徑。",
+  "RUSTFS_CONSOLE_ENABLE": "啟用 Web 控制台伺服器。設定為 'true' 以啟用。",
+  "RUSTFS_CONSOLE_ADDRESS": "控制台伺服器綁定位址。預設值為 ':9001'。",
+  "RUSTFS_SERVER_DOMAINS": "用於虛擬主機風格請求的域名。",
+  "RUSTFS_TLS_PATH": "RustFS API 和控制台的 TLS 憑證路徑。",
+  "RUSTFS_REGION": "伺服器的區域名稱。",
+  "RUSTFS_LICENSE": "商業功能的許可證金鑰。",
+  "RUSTFS_KMS_ENABLE": "啟用 KMS 服務端加密。設定為 'true' 以啟用。",
+  "RUSTFS_KMS_BACKEND": "KMS 後端類型：'local' 或 'vault'。預設值為 'local'。",
+  "RUSTFS_KMS_KEY_DIR": "本地後端的 KMS 金鑰目錄。",
+  "RUSTFS_KMS_VAULT_ADDRESS": "Vault 後端的 Vault 伺服器位址。",
+  "RUSTFS_KMS_VAULT_TOKEN": "Vault 後端認證的 Vault 權杖。",
+  "RUSTFS_KMS_DEFAULT_KEY_ID": "用於加密的預設 KMS 金鑰 ID。",
+  "RUSTFS_OBS_ENDPOINT": "用於追蹤、指標和日誌的可觀測性端點（僅支援 gRPC 模式）。",
+  "RUSTFS_BUFFER_PROFILE_DISABLE": "停用工作負載設定檔的自適應緩衝區大小調整。設定為 'true' 以使用固定大小緩衝區。",
+  "RUSTFS_BUFFER_PROFILE": "自適應緩衝區大小調整的工作負載設定檔。選項：GeneralPurpose、AiTraining、DataAnalytics、WebWorkload、IndustrialIoT、SecureStorage。"
+}
