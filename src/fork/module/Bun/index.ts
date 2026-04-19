@@ -1,12 +1,11 @@
-import { join } from 'path'
+import { dirname, join } from 'path'
 import { existsSync } from 'fs'
-import { exec } from 'child_process'
-import { promisify } from 'util'
 import { Base } from '../Base'
 import { ForkPromise } from '@shared/ForkPromise'
 import type { OnlineVersionItem, SoftInstalled } from '@shared/app'
 import {
   binXattrFix,
+  execPromiseWithEnv,
   mkdirp,
   moveChildDirToParent,
   remove,
@@ -19,8 +18,6 @@ import {
 } from '../../Fn'
 import TaskQueue from '../../TaskQueue'
 import { isMacOS, isWindows } from '@shared/utils'
-
-const execAsync = promisify(exec)
 
 class Bun extends Base {
   constructor() {
@@ -105,7 +102,10 @@ class Bun extends Base {
       await moveChildDirToParent(row.appDir)
 
       try {
-        await execAsync(`"${row.bin}" completions`, { windowsHide: true })
+        await execPromiseWithEnv(`"${row.bin}" completions`, {
+          windowsHide: true,
+          cwd: dirname(row.bin)
+        })
       } catch {}
     } else {
       const dir = row.appDir
@@ -118,7 +118,9 @@ class Bun extends Base {
       }
 
       try {
-        await execAsync(`"${row.bin}" completions`)
+        await execPromiseWithEnv(`"${row.bin}" completions`, {
+          cwd: dirname(row.bin)
+        })
       } catch (error) {
         console.warn('[Bun] completions failed (non-fatal):', (error as Error).message)
       }
